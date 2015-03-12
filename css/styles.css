@@ -1,0 +1,14 @@
+h1 {
+	color: RGB(220, 98, 25);
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h2, h3 {
+	color: #001640;
+	font-family: Arial, Verdana, sans-serif;
+	font-style: italic;
+}
+
+h4 {
+	color: HSL(141%, 31%, 55%);
+}

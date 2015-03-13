@@ -5,11 +5,40 @@
   src: local('Kaushan Script'), local('KaushanScript-Regular'), url(http://fonts.gstatic.com/s/kaushanscript/v4/qx1LSqts-NtiKcLw4N03IANMAcR23K2W2XJa2LmwCb4.ttf) format('truetype');
 }
 
+#page {
+	background-color: #D9CA99;
+	foreground-color: #000000;
+	max-width: 840px;
+	margin: auto;
+	padding: 20px;
+	border: 4px #000;
+}
+
+
+nav ul {
+	font-family: Arial, Verdana, sans-serif;
+	color: #011640;
+	display: inline;
+	border: 1px #;
+}
+
+a:link {
+	color: #011640;
+	text-decoration: none;}
+a:visited {
+	color: #000;}
+a:hover {
+	color: #A68C50;
+	text-decoration: underline;}
+a:active {
+	color: #D93654;}
+
 h1 {
 	color: rgba(220, 98, 25, 0.85);
 	font-family: Kaushan Script, Arial, Verdana, sans-serif;
 	font-size: 35px;
 	text-shadow: 3px 3px 4px #cccccc;
+	text-align: center;
 }
 
 h2, {
@@ -17,31 +46,43 @@ h2, {
 	font-family: Arial, Verdana, sans-serif;
 	font-style: italic;
 	font-weight: bold;
+	
 }
 
 h3, h4 {
 	color: #011640;
 	font-family: Arial, Verdana, sans-serif;
 	font-style: italic;
+	
 }
 
 strong {
 	color: #618C79;
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 90%;
+	margin: 5px auto 5px auto;
 }
 
-p, li {
+p {
 	font-family: Georgia, Times, serif;
 	line-height: 20px;
 	font-size: 90%;
 	width: 620px;
 	text-align: left;
+	margin: 1px auto 1px auto;
 }
 
+ol {
+	font-family: Georgia, Times, serif;
+	line-height: 20px;
+	font-size: 90%;
+	width: 615px;
+	text-align: left;
+	margin: 5px auto 5px auto;
+
 a {
-	font-family: Arial, Verdana, sans-serif;
-	font-size: 95%;
+	border: 2px solid;
+	display: inline-block;
 }
 
 a:link {

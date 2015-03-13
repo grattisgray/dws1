@@ -18,7 +18,7 @@ nav ul {
 	font-family: Arial, Verdana, sans-serif;
 	color: #011640;
 	display: inline;
-	border: 1px #;
+	border: 2px;
 }
 
 a:link {
@@ -39,9 +39,10 @@ h1 {
 	font-size: 35px;
 	text-shadow: 3px 3px 4px #cccccc;
 	text-align: center;
+	
 }
 /* Subheading style */
-h2, {
+h2 {
 	color: hsl(141,32%,55%);
 	font-family: Arial, Verdana, sans-serif;
 	font-style: italic;
@@ -79,9 +80,7 @@ ol {
 	text-align: left;
 	margin: 5px auto 5px auto;
 
-a {
-	display: block inline;
-	}
+
 /* link styles */
 a {
 	border: 2px solid;

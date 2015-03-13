@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(http://fonts.gstatic.com/s/kaushanscript/v4/qx1LSqts-NtiKcLw4N03IANMAcR23K2W2XJa2LmwCb4.ttf) format('truetype');
+}
+
 h1 {
 	color: rgba(220, 98, 25, 0.85);
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Kaushan Script, Arial, Verdana, sans-serif;
+	font-size: 35px;
 	text-shadow: 3px 3px 4px #cccccc;
 }
 
@@ -23,10 +31,30 @@ strong {
 	font-size: 90%;
 }
 
-p {
+p, li {
 	font-family: Georgia, Times, serif;
 	line-height: 20px;
 	font-size: 90%;
 	width: 620px;
 	text-align: left;
+}
+
+a {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 95%;
+}
+
+a:link {
+	color: #011640;
+	text-decoration: none;}
+a:visited {
+	color: #000;}
+a:hover {
+	color: #A68C50;
+	text-decoration: underline;}
+a:active {
+	color: #D93654;}
+	
+ol {
+	list-style-type: lower-alpha;
 }

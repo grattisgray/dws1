@@ -31,6 +31,9 @@ a:hover {
 	text-decoration: underline;}
 a:active {
 	color: #D93654;}
+	
+ol {
+	list-style-type: lower-alpha;}
 
 /* Main Heading style */
 h1 {
@@ -98,6 +101,3 @@ a:hover {
 a:active {
 	color: #D93654;}
 	
-ol {
-	list-style-type: lower-alpha;
-}

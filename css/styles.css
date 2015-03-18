@@ -4,23 +4,29 @@
   font-weight: 400;
   src: local('Kaushan Script'), local('KaushanScript-Regular'), url(http://fonts.gstatic.com/s/kaushanscript/v4/qx1LSqts-NtiKcLw4N03IANMAcR23K2W2XJa2LmwCb4.ttf) format('truetype');
 }
-/* Page style */
 #page {
+	font-family: Arial, Verdana, sans-serif;
 	background-color: #D9CA99;
-	max-width: 840px;
+	max-width: 960px;
 	margin: auto;
 	padding: 20px;
 	border: 4px #000;
 	border-radius: 30px;
 }
-/* Navigation style */
-nav ul {
-	font-family: Arial, Verdana, sans-serif;
-	color: #011640;
-	display: inline;
-	border: 2px;
-}
 
+/* Navigation style */
+#nav {
+	color: #011640;
+	margin: auto
+}
+#nav li {
+	display: inline;
+	margin-left: 10px;
+	border: 1px solid #000;
+	padding: 10px;
+	
+	}
+	
 a:link {
 	color: #011640;
 	text-decoration: none;}
@@ -45,6 +51,18 @@ h1 {
 	
 }
 /* Subheading style */
+.subheadings {
+	margin-left: 140px;
+	}
+	
+.subhead {
+	margin-left: 170px;
+	}
+	
+.materials {
+	margin-left: 170px;
+	}
+	
 h2 {
 	color: hsl(141,32%,55%);
 	font-family: Arial, Verdana, sans-serif;
@@ -52,10 +70,11 @@ h2 {
 	font-weight: bold;
 }
 /* Sub-subheading style */
-h3, h4 {
+#subheadings {
 	color: #011640;
 	font-family: Arial, Verdana, sans-serif;
 	font-style: italic;
+	margin: 5px auto;
 }
 
 /* emphasis style */
@@ -87,7 +106,7 @@ ol {
 /* link styles */
 a {
 	border: 2px solid;
-	display: inline-block;
+	display: inline;
 }
 
 a:link {

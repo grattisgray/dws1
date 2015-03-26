@@ -34,7 +34,7 @@ h1 {
 	}
 	
 /* Navigation style 15px = 1.56%*/
-#nav {
+nav {
 	color: #011640;
 	font-family: Arial, Verdana, sans-serif;
 	font-weight: bold;
@@ -42,7 +42,7 @@ h1 {
 	text-align: center;
 	}
 
-#nav li {
+nav li {
 	display: inline;
 	margin-left: 2%;
 	border: 1px solid #000;
@@ -62,7 +62,7 @@ p {
 	}
 
 /* Types of Origami Style style 31.25% = 300px */
-#sidebar {
+aside {
 	float: right;
 	width: 31.25%;
 	margin: 1%;
@@ -154,3 +154,24 @@ a:active {
 	padding: 20px;
 	}
 	
+table {
+	font-family: Helvetica, Arial, sans-serif;
+	width: 530px;
+	border: 1px solid #777;
+	border-spacing: 5px;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-size: 15px;
+	background-color: rgba(220, 98, 25, 0.40);
+	}
+
+th {
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+	text-align: left;
+	padding-right: 10px;
+	}
+
+tr:hover {
+	background-color: #ccc;
+	}

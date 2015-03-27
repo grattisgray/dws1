@@ -73,7 +73,6 @@ aside {
 /* Quotation style 21.5% = 200px */	
 blockquote {
 	font-size: 20px;
-	font-style: bold;
 	width: 27%;
 	margin: 0% auto;
 	border-top: 2px solid #777;

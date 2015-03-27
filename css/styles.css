@@ -204,7 +204,7 @@ form {
 	width: 50%;
 	padding: 10px;
 	}
-	
+/* Form style - subscribers name */	
 #name {
 	width: 150px;
 	height: auto;
@@ -213,11 +213,11 @@ form {
 	display: inline;
 	float: left;
 	}
-	
+/* Form style - text box hover */		
 #name:hover {
 	background-color: rgba(220, 98, 25, 0.40);
 	}
-
+/* Form style - email address */	
 #email {
 	width: 150px;
 	height: auto;
@@ -226,11 +226,11 @@ form {
 	display: inline;
 	float: left;
 	}
-	
+/* Form style - email hover */		
 #email:hover {
 	background-color: rgba(220, 98, 25, 0.40);
 	}
-
+/* Form style - subscriber submit button */	
 #submit input{
 	margin: 10px;
 	background-color: #f0f0f0;
@@ -238,17 +238,17 @@ form {
 	float: right;
 	width: 90px;
 	}
-
+/* Form style - subscribers submit button */	
 #submit:hover input{
 	background-color: #ffe;
 	}
-		
+/* Form style - float titles - couldn't get name to float right */			
 .float {
 	float: left;
 	width: 50px;
 	clear: left;
 	}
-	
+/* Form style - for poll button */	
 #button {
 	margin: 10px;
 	background-color: #f0f0f0;
@@ -256,7 +256,11 @@ form {
 	float: left;
 	width: 90px;
 	}
-
+/* Form style - poll button style */	
 #button:hover {
 	background-color: #ffe;
+	}
+	
+#history {
+	margin-top: 170px;
 	}
